@@ -2,14 +2,14 @@ from collections import Counter
 import unittest
 
 
-def check_permutation(string_1: str, string_2: str) -> bool:
+def check_permutation(s1: str, s2: str) -> bool:
     # O(nlogn) time and O(1) space.
-    return sorted(string_1) == sorted(string_2)
+    return sorted(s1) == sorted(s2)
 
 
-def check_permutation_linear_time(string_1: str, string_2: str) -> bool:
+def check_permutation_linear_time(s1: str, s2: str) -> bool:
     # O(n) time and O(n) space.
-    return Counter(string_1) == Counter(string_2)
+    return Counter(s1) == Counter(s2)
 
 
 class Test(unittest.TestCase):
