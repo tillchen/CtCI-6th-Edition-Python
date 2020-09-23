@@ -19,7 +19,7 @@ def is_unique_with_constant_space(string: str) -> bool:
 
 
 def is_unique_with_set(string: str) -> bool:
-    # O(n) and O(n) space.
+    # O(n) time and O(n) space.
     char_set = set()
     for char in string:
         if char in char_set:

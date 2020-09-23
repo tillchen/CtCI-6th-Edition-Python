@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cdd9ada-e130-4fc5-a0f5-fef61fd66f3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/1_Is Unique/is_unique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/1_Is Unique/is_unique.py" afterDir="false" />
-    </list>
+    <list default="true" id="3cdd9ada-e130-4fc5-a0f5-fef61fd66f3c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +31,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunManager">
+    <configuration name="Unittests for is_unique.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CtCI-6th-Edition-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/1_Is Unique" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;is_unique.Test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for is_unique.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,14 +61,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600856244632</updated>
-      <workItem from="1600856246081" duration="1223000" />
+      <workItem from="1600856246081" duration="1927000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1814" height="290" key="GridCell.Tab.0.bottom" timestamp="1600858182414">
+      <screen x="64" y="23" width="1856" height="1057" />
+    </state>
+    <state width="1814" height="290" key="GridCell.Tab.0.bottom/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182414" />
+    <state width="1814" height="290" key="GridCell.Tab.0.center" timestamp="1600858182413">
+      <screen x="64" y="23" width="1856" height="1057" />
+    </state>
+    <state width="1814" height="290" key="GridCell.Tab.0.center/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182413" />
+    <state width="1814" height="290" key="GridCell.Tab.0.left" timestamp="1600858182412">
+      <screen x="64" y="23" width="1856" height="1057" />
+    </state>
+    <state width="1814" height="290" key="GridCell.Tab.0.left/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182412" />
+    <state width="1814" height="290" key="GridCell.Tab.0.right" timestamp="1600858182414">
+      <screen x="64" y="23" width="1856" height="1057" />
+    </state>
+    <state width="1814" height="290" key="GridCell.Tab.0.right/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182414" />
     <state x="722" y="290" width="540" height="524" key="StructurePopup" timestamp="1600856394162">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
     <state x="722" y="290" width="540" height="524" key="StructurePopup/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600856394162" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_is_unique_Test.coverage" NAME="Unittests for is_unique.Test Coverage Results" MODIFIED="1600858158554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/1_Is Unique" />
   </component>
 </project>
