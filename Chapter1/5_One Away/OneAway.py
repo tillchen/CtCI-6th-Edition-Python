@@ -69,5 +69,5 @@ class Test(unittest.TestCase):
             actual = one_away(test_s1, test_s2)
             self.assertEqual(actual, expected)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

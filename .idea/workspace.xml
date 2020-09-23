@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cdd9ada-e130-4fc5-a0f5-fef61fd66f3c" name="Default Changelist" comment="" />
+    <list default="true" id="3cdd9ada-e130-4fc5-a0f5-fef61fd66f3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter1/2_Check Permutation/check_permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/1_Is Unique/IsUnique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/1_Is Unique/IsUnique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/2_Check Permutation/CheckPermutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/2_Check Permutation/CheckPermutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/3_URLify/URLify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/3_URLify/URLify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/4_Palindrome Permutation/PalindromePermutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/4_Palindrome Permutation/PalindromePermutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/5_One Away/OneAway.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/5_One Away/OneAway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/6_String Compression/StringCompression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/6_String Compression/StringCompression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/7_Rotate Matrix/RotateMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/7_Rotate Matrix/RotateMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/8_Zero Matrix/ZeroMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/8_Zero Matrix/ZeroMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter1/9_String Rotation/StringRotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/9_String Rotation/StringRotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter10/102GroupAnagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/102GroupAnagrams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4/41RouteBetweenNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/41RouteBetweenNodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4/42MinimalTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/42MinimalTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter8/84PowerSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/84PowerSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter8/86TowersOfHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/86TowersOfHanoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter8/87PermutationsWithoutDups.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/87PermutationsWithoutDups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter8/88PermutationsWithDups.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/88PermutationsWithDups.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +50,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for check_permutation.Test">
+    <configuration name="Unittests for check_permutation.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CtCI-6th-Edition-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/2_Check Permutation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;check_permutation.Test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for is_unique.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="CtCI-6th-Edition-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for check_permutation.Test" />
         <item itemvalue="Python tests.Unittests for is_unique.Test" />
       </list>
     </recent_temporary>
@@ -61,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600856244632</updated>
-      <workItem from="1600856246081" duration="1927000" />
+      <workItem from="1600856246081" duration="3496000" />
     </task>
     <servers />
   </component>
@@ -86,6 +121,14 @@
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
     <state x="722" y="290" width="540" height="524" key="StructurePopup/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600856394162" />
+    <state x="699" y="306" width="586" height="490" key="find.popup" timestamp="1600868478293">
+      <screen x="64" y="23" width="1856" height="1057" />
+    </state>
+    <state x="699" y="306" width="586" height="490" key="find.popup/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600868478293" />
+    <state x="657" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1600868423676">
+      <screen x="64" y="23" width="1856" height="1057" />
+    </state>
+    <state x="657" y="258" width="670" height="676" key="search.everywhere.popup/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600868423676" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_is_unique_Test.coverage" NAME="Unittests for is_unique.Test Coverage Results" MODIFIED="1600858158554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/1_Is Unique" />

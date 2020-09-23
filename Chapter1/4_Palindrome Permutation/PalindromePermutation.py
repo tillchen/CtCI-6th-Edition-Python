@@ -48,5 +48,5 @@ class Test(unittest.TestCase):
             actual = pal_perm(test_string)
             self.assertEqual(actual, expected)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

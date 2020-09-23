@@ -42,5 +42,5 @@ def convertIntToSet(x, aset):
 
 
 print(getSubsets([1,2,3],0))
-print("\n")
+print('\n')
 print(getSubsets2([1,2,3]))

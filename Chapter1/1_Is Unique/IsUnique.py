@@ -32,5 +32,5 @@ class Test(unittest.TestCase):
             actual = unique(test_string)
             self.assertFalse(actual)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

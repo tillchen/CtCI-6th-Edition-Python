@@ -2,7 +2,7 @@ def GroupAnagrams():
     strings = initialise_anagrams()
     anagrams = {}
     for i in range(len(strings)):
-        word = "".join(sorted(strings[i].lower()))
+        word = ''.join(sorted(strings[i].lower()))
         if not anagrams.has_key(word):
             anagrams.setdefault(word, [])
         anagrams[word].append(strings[i])
@@ -18,14 +18,14 @@ def GroupAnagrams():
 
 def initialise_anagrams():
     strings = [0] * 8
-    strings[0] = "abed"
-    strings[1] = "later"
-    strings[2] = "bead"
-    strings[3] = "alert"
-    strings[4] = "altered"
-    strings[5] = "bade"
-    strings[6] = "alter"
-    strings[7] = "alerted"
+    strings[0] = 'abed'
+    strings[1] = 'later'
+    strings[2] = 'bead'
+    strings[3] = 'alert'
+    strings[4] = 'altered'
+    strings[5] = 'bade'
+    strings[6] = 'alter'
+    strings[7] = 'alerted'
     return strings
 
 GroupAnagrams()

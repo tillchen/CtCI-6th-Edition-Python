@@ -6,7 +6,7 @@ class Node:
         self.val = item
 
     def __str__(self):
-        return '('+str(self.left)+':L ' + "V:" + str(self.val) + " R:" + str(self.right)+')'
+        return '('+str(self.left)+':L ' + 'V:' + str(self.val) + ' R:' + str(self.right)+')'
 
 
 def initiateArrayToBinary(array):

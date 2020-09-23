@@ -7,7 +7,7 @@ def getPerms(string):
         return None
     if len(string) == 0:
         #base case
-        permutations.append(" ")
+        permutations.append(' ')
         return permutations
     first = string[0] #get first letter in string
     remainder = string[1:]
@@ -29,7 +29,7 @@ def insertCharAt(word, char, i):
 # approach 2: Building from permutations of all n-1 character substrings
 def getPerms2(string):
     result = []
-    getPerms2Inner(" ", string, result)
+    getPerms2Inner(' ', string, result)
     return result
 
 def getPerms2Inner(prefix, remainder, result):
@@ -42,5 +42,5 @@ def getPerms2Inner(prefix, remainder, result):
         c = remainder[i]
         getPerms2Inner(prefix + c, before + after, result)
 
-print(getPerms("str"))
-print(getPerms2("str"))
+print(getPerms('str'))
+print(getPerms2('str'))

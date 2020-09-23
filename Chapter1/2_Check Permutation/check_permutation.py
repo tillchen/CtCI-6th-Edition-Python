@@ -1,19 +1,15 @@
-# O(N)
-import unittest
 from collections import Counter
+import unittest
 
 
-def check_permutation(str1, str2):
-    if len(str1) != len(str2):
-        return False
-    counter = Counter()
-    for c in str1:
-        counter[c] += 1
-    for c in str2:
-        if counter[c] == 0:
-            return False
-        counter[c] -= 1
-    return True
+def check_permutation(string_1: str, string_2: str) -> bool:
+    # O(nlogn) time and O(1) space.
+    return sorted(string_1) == sorted(string_2)
+
+
+def check_permutation_linear_time(string_1: str, string_2: str) -> bool:
+    # O(n) time and O(n) space.
+    return Counter(string_1) == Counter(string_2)
 
 
 class Test(unittest.TestCase):
@@ -33,9 +29,13 @@ class Test(unittest.TestCase):
         for test_strings in self.dataT:
             result = check_permutation(*test_strings)
             self.assertTrue(result)
+            result = check_permutation_linear_time(*test_strings)
+            self.assertTrue(result)
         # false check
         for test_strings in self.dataF:
             result = check_permutation(*test_strings)
+            self.assertFalse(result)
+            result = check_permutation_linear_time(*test_strings)
             self.assertFalse(result)
 
 

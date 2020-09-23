@@ -32,5 +32,5 @@ class Test(unittest.TestCase):
             actual = urlify(test_string, length)
             self.assertEqual(actual, expected)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

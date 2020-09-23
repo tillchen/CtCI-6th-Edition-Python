@@ -1,7 +1,7 @@
 def printPerms(string):
     result = []
     letterCountMap = buildFreqTable(string)
-    printPermsInner(letterCountMap, "", len(string), result)
+    printPermsInner(letterCountMap, '', len(string), result)
     return result
 
 #returns dictionary <string, integer>
@@ -26,6 +26,6 @@ def printPermsInner(letterCountMap, prefix, remaining, result):
             printPermsInner(letterCountMap, prefix + character, remaining - 1, result)
             letterCountMap[character] = count
 
-print(printPerms("aaf"))
+print(printPerms('aaf'))
 
 

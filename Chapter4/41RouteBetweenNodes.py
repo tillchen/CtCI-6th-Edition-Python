@@ -13,7 +13,7 @@ class Graph():
             self.vertices[self.count] = x
             self.count += 1
         else:
-            print "Graph full"
+            print 'Graph full'
 
     def getNodes(self):
         return self.vertices
@@ -32,7 +32,7 @@ class Node():
             self.adjacent[self.adjacentCount] = x
             self.adjacentCount += 1
         else:
-            print "No more adjacent nodes can be added"
+            print 'No more adjacent nodes can be added'
 
     def getAdjacent(self):
         return self.adjacent
@@ -66,12 +66,12 @@ def createNewGraph():
     sizegraph = 6
     temp = [0] * sizegraph
 
-    temp[0] = Node("a", 3)
-    temp[1] = Node("b", 0)
-    temp[2] = Node("c", 0)
-    temp[3] = Node("d", 1)
-    temp[4] = Node("e", 1)
-    temp[5] = Node("f", 0)
+    temp[0] = Node('a', 3)
+    temp[1] = Node('b', 0)
+    temp[2] = Node('c', 0)
+    temp[3] = Node('d', 1)
+    temp[4] = Node('e', 1)
+    temp[5] = Node('f', 0)
 
     temp[0].addAdjacent(temp[1])
     temp[0].addAdjacent(temp[2])
@@ -89,12 +89,12 @@ def createNewGraphWithLoop():
     sizegraph = 6
     temp = [0] * sizegraph
 
-    temp[0] = Node("a", 1)
-    temp[1] = Node("b", 1)
-    temp[2] = Node("c", 1)
-    temp[3] = Node("d", 1)
-    temp[4] = Node("e", 2)
-    temp[5] = Node("f", 0)
+    temp[0] = Node('a', 1)
+    temp[1] = Node('b', 1)
+    temp[2] = Node('c', 1)
+    temp[3] = Node('d', 1)
+    temp[4] = Node('e', 2)
+    temp[5] = Node('f', 0)
 
     temp[0].addAdjacent(temp[1])
     temp[1].addAdjacent(temp[2])
@@ -111,5 +111,5 @@ g = createNewGraphWithLoop()
 n = g.getNodes()
 start = n[0]
 end = n[5]
-print "Start at:", start.getVertex(), "End at: ", end.getVertex()
+print 'Start at:', start.getVertex(), 'End at: ', end.getVertex()
 print breadthfirstsearch(g, start, end)
