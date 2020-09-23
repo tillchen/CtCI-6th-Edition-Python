@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cdd9ada-e130-4fc5-a0f5-fef61fd66f3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter1/2_Check Permutation/check_permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/3_URLify/urlify_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/1_Is Unique/IsUnique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/1_Is Unique/IsUnique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/2_Check Permutation/CheckPermutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/2_Check Permutation/CheckPermutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/3_URLify/URLify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/3_URLify/URLify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/4_Palindrome Permutation/PalindromePermutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/4_Palindrome Permutation/PalindromePermutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/5_One Away/OneAway.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/5_One Away/OneAway.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/6_String Compression/StringCompression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/6_String Compression/StringCompression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/7_Rotate Matrix/RotateMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/7_Rotate Matrix/RotateMatrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/8_Zero Matrix/ZeroMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/8_Zero Matrix/ZeroMatrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/9_String Rotation/StringRotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/9_String Rotation/StringRotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/102GroupAnagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/102GroupAnagrams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter4/41RouteBetweenNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/41RouteBetweenNodes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter4/42MinimalTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/42MinimalTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter8/84PowerSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/84PowerSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter8/86TowersOfHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/86TowersOfHanoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter8/87PermutationsWithoutDups.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/87PermutationsWithoutDups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter8/88PermutationsWithDups.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/88PermutationsWithDups.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,27 +80,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600856244632</updated>
-      <workItem from="1600856246081" duration="3496000" />
+      <workItem from="1600856246081" duration="4191000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1814" height="290" key="GridCell.Tab.0.bottom" timestamp="1600858182414">
+    <state width="1814" height="290" key="GridCell.Tab.0.bottom" timestamp="1600868714479">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="290" key="GridCell.Tab.0.bottom/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182414" />
-    <state width="1814" height="290" key="GridCell.Tab.0.center" timestamp="1600858182413">
+    <state width="1814" height="290" key="GridCell.Tab.0.bottom/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600868714479" />
+    <state width="1814" height="290" key="GridCell.Tab.0.center" timestamp="1600868714478">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="290" key="GridCell.Tab.0.center/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182413" />
-    <state width="1814" height="290" key="GridCell.Tab.0.left" timestamp="1600858182412">
+    <state width="1814" height="290" key="GridCell.Tab.0.center/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600868714478" />
+    <state width="1814" height="290" key="GridCell.Tab.0.left" timestamp="1600868714476">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="290" key="GridCell.Tab.0.left/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182412" />
-    <state width="1814" height="290" key="GridCell.Tab.0.right" timestamp="1600858182414">
+    <state width="1814" height="290" key="GridCell.Tab.0.left/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600868714476" />
+    <state width="1814" height="290" key="GridCell.Tab.0.right" timestamp="1600868714478">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="290" key="GridCell.Tab.0.right/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600858182414" />
+    <state width="1814" height="290" key="GridCell.Tab.0.right/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600868714478" />
     <state x="722" y="290" width="540" height="524" key="StructurePopup" timestamp="1600856394162">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
@@ -132,5 +116,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_is_unique_Test.coverage" NAME="Unittests for is_unique.Test Coverage Results" MODIFIED="1600858158554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/1_Is Unique" />
+    <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_check_permutation_Test.coverage" NAME="Unittests for check_permutation.Test Coverage Results" MODIFIED="1600868591179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/2_Check Permutation" />
   </component>
 </project>
