@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cdd9ada-e130-4fc5-a0f5-fef61fd66f3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter1/9_String Rotation/string_rotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for zero_matrix.Test">
-    <configuration name="Unittests for OneAway.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="CtCI-6th-Edition-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/5_One Away" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;OneAway.Test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for string_rotation.Test">
     <configuration name="Unittests for one_away.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="CtCI-6th-Edition-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +79,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for string_rotation.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CtCI-6th-Edition-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/9_String Rotation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;string_rotation.Test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for zero_matrix.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="CtCI-6th-Edition-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for string_rotation.Test" />
         <item itemvalue="Python tests.Unittests for zero_matrix.Test" />
         <item itemvalue="Python tests.Unittests for rotate_matrix.Test" />
         <item itemvalue="Python tests.Unittests for string_compression.Test" />
         <item itemvalue="Python tests.Unittests for one_away.Test" />
-        <item itemvalue="Python tests.Unittests for OneAway.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,8 @@
       <updated>1600856244632</updated>
       <workItem from="1600856246081" duration="12442000" />
       <workItem from="1600940491065" duration="159000" />
-      <workItem from="1600941939246" duration="2785000" />
+      <workItem from="1600941939246" duration="4162000" />
+      <workItem from="1600975520667" duration="845000" />
     </task>
     <servers />
   </component>
@@ -146,22 +147,22 @@
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
     <state x="680" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600940638640" />
-    <state width="1814" height="327" key="GridCell.Tab.0.bottom" timestamp="1600956637038">
+    <state width="1814" height="327" key="GridCell.Tab.0.bottom" timestamp="1600958978355">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="327" key="GridCell.Tab.0.bottom/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600956637038" />
-    <state width="1814" height="327" key="GridCell.Tab.0.center" timestamp="1600956637037">
+    <state width="1814" height="327" key="GridCell.Tab.0.bottom/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600958978355" />
+    <state width="1814" height="327" key="GridCell.Tab.0.center" timestamp="1600958978352">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="327" key="GridCell.Tab.0.center/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600956637037" />
-    <state width="1814" height="327" key="GridCell.Tab.0.left" timestamp="1600956637036">
+    <state width="1814" height="327" key="GridCell.Tab.0.center/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600958978352" />
+    <state width="1814" height="327" key="GridCell.Tab.0.left" timestamp="1600958978351">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="327" key="GridCell.Tab.0.left/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600956637036" />
-    <state width="1814" height="327" key="GridCell.Tab.0.right" timestamp="1600956637038">
+    <state width="1814" height="327" key="GridCell.Tab.0.left/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600958978351" />
+    <state width="1814" height="327" key="GridCell.Tab.0.right" timestamp="1600958978353">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
-    <state width="1814" height="327" key="GridCell.Tab.0.right/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600956637038" />
+    <state width="1814" height="327" key="GridCell.Tab.0.right/64.23.1856.1057/1920.23.1440.877@64.23.1856.1057" timestamp="1600958978353" />
     <state x="722" y="290" width="540" height="524" key="StructurePopup" timestamp="1600856394162">
       <screen x="64" y="23" width="1856" height="1057" />
     </state>
@@ -178,6 +179,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_in_one_away_py.coverage" NAME="Unittests in one_away.py Coverage Results" MODIFIED="1600879431613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/5_One Away" />
     <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_palindrome_permutation_Test.coverage" NAME="Unittests for palindrome_permutation.Test Coverage Results" MODIFIED="1600871552924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/4_Palindrome Permutation" />
+    <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_string_rotation_Test.coverage" NAME="Unittests for string_rotation.Test Coverage Results" MODIFIED="1600957178072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/9_String Rotation" />
     <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_one_away_Test.coverage" NAME="Unittests for one_away.Test Coverage Results" MODIFIED="1600880025821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/5_One Away" />
     <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_string_compression_Test.coverage" NAME="Unittests for string_compression.Test Coverage Results" MODIFIED="1600888764728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/6_String Compression" />
     <SUITE FILE_PATH="coverage/CtCI_6th_Edition_Python$Unittests_for_OneAway_Test.coverage" NAME="Unittests for OneAway.Test Coverage Results" MODIFIED="1600879537513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/5_One Away" />
