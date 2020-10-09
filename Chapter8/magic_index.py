@@ -32,6 +32,21 @@ def magic_index_binary_search(L: List[int]) -> int:
     return -1
 
 
+def magic_index_recursive(L: List[int], left, right) -> int:
+    """
+    Ditto.
+    """
+
+    middle = (left + right) // 2
+    if L[middle] == middle:
+        return middle
+    elif L[middle] < middle:
+        return magic_index_recursive(L, middle + 1, right)
+    else:
+        return magic_index_recursive(L, left, middle - 1)
+
+
 if __name__ == '__main__':
     print(magic_index([-3, -2, 0, 3, 5]))
     print(magic_index_binary_search([-3, -2, 0, 3, 5]))
+    print(magic_index_recursive([-3, -2, 0, 3, 5], 0, 4))
